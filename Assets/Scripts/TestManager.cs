@@ -13,12 +13,15 @@ public class TestManager : MonoBehaviour
 	Sentence currentSentence = null;
 
 	// hardcoded challenges
-	string[,] tests = new string[4, 3]
+	string[,] tests = new string[7, 3]
 	{
-		{"Tom brushes his _.", "teeth", "牙齿"},
-		{"Tom eats a big _.", "breakfast", "早餐"},
 		{"Tom takes a _.", "shower", "洗澡"},
-		{"Tom needs to wear _.", "clothes", "zh"},
+		{"Tom pees in the _.", "toilet", "卫生间"},
+		{"Tom opens the _.", "refrigerator", "冰箱"},
+		{"Tom eats a big _.", "breakfast", "早餐"},
+		{"Tom brushes his _.", "teeth", "牙齿"},
+		{"Tom wears his _.", "clothes", "衣服"},
+		{"Tom puts on his _.", "shoes", "鞋子"},
 	};
 
 	void Start()
