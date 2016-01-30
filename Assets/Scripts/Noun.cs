@@ -17,11 +17,6 @@ public class Noun : MonoBehaviour
 		}
 	}
 
-	public void Describe()
-	{
-		Debug.Log("noun!");
-	}
-
 	public void StartDrag()
 	{
 		dragging = true;
@@ -29,6 +24,16 @@ public class Noun : MonoBehaviour
 
 	public void StopDrag()
 	{
+		//Debug.Log(transform.localPosition.sqrMagnitude);
 		dragging = false;
+		if (transform.localPosition.sqrMagnitude < 1000f)
+		{
+			Debug.Log("noun!");
+		}
+		else
+		{
+			Sentence sent = GameObject.FindWithTag("sentence").GetComponent<Sentence>();
+			sent.FillIn(gameObject);
+		}
 	}
 }
