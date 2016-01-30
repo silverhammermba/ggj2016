@@ -15,6 +15,9 @@ public class Sentence : MonoBehaviour
 	public float blankPad = 10f;
 	public float dropThreshold = 50f;
 
+	public Color correctColor = Color.green;
+	public Color wrongColor = Color.red;
+
 	public void Setup(string bef, string cor, string aft)
 	{
 		before = bef;
@@ -34,16 +37,14 @@ public class Sentence : MonoBehaviour
 	public void FillIn(GameObject word)
 	{
 		float dist = Vector3.Distance(word.transform.position, blank.position);
+
 		if (dist < dropThreshold)
 		{
 			blank.gameObject.SetActive(false);
-			afterText.text = " " + word.GetComponent<Noun>().english + ".";
+			string eng = word.GetComponent<Noun>().english;
+			string colhex = ColorUtility.ToHtmlStringRGB(eng == correct ? correctColor : wrongColor);
+			afterText.text = " <color=#" + colhex + ">" +  eng + "</color>" + after;
 			afterText.transform.localPosition = new Vector3(0f, 0f, 0f);
-			GameObject.Destroy(word.transform.parent.gameObject);
-		}
-		else
-		{
-			Debug.Log("too far");
 		}
 	}
 }

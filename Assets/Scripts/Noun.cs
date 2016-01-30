@@ -7,14 +7,30 @@ public class Noun : MonoBehaviour
 	bool dragging = false;
 	public string english;
 
-	public void Setup(string cn, string en, RectTransform parent)
+	Transform canvas;
+	RectTransform parent;
+	AudioSource asrc;
+	AudioClip clip;
+
+	void Start()
 	{
-		transform.GetChild(0).gameObject.GetComponent<Text>().text = cn;
+		canvas = GameObject.FindWithTag("canvas").transform;
+		asrc = GetComponent<AudioSource>();
+		clip = Resources.Load("Audio/" + english) as AudioClip;
+		if (clip == null)
+			Debug.Log("Failed to load Audio/" + english);
+		asrc.clip = clip;
+	}
+
+	public void Setup(string zh, string en, RectTransform grid)
+	{
+		parent = grid;
+
+		transform.GetChild(0).gameObject.GetComponent<Text>().text = zh;
 		english = en;
 		transform.SetParent(parent);
 	}
 
-	/*
 	void Update ()
 	{
 		if (dragging)
@@ -23,28 +39,28 @@ public class Noun : MonoBehaviour
 		}
 		else
 		{
-			transform.localPosition = Vector3.Lerp(transform.localPosition, new Vector3(0f, 0f, 0f), 0.25f);
+			//transform.localPosition = Vector3.Lerp(transform.localPosition, new Vector3(0f, 0f, 0f), 0.25f);
 		}
 	}
-	*/
 
-	public void StartDrag()
+	public void followMouse()
 	{
+		transform.SetParent(canvas);
 		dragging = true;
 	}
 
-	public void StopDrag()
+	public void backToGrid()
 	{
-		//Debug.Log(transform.localPosition.sqrMagnitude);
 		dragging = false;
-		if (transform.localPosition.sqrMagnitude < 1000f)
-		{
-			Debug.Log("noun!");
-		}
-		else
-		{
-			Sentence sent = GameObject.FindWithTag("sentence").GetComponent<Sentence>();
-			sent.FillIn(gameObject);
-		}
+		transform.SetParent(parent);
+
+		Sentence sent = GameObject.FindWithTag("sentence").GetComponent<Sentence>();
+		sent.FillIn(gameObject);
+	}
+
+	public void Describe()
+	{
+		if (dragging) return;
+		asrc.Play();
 	}
 }

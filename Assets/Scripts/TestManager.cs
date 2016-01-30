@@ -9,17 +9,18 @@ public class TestManager : MonoBehaviour
 	public RectTransform topBar;
 	public RectTransform bottomBar;
 
-	string[,] tests = new string[2, 4]
+	string[,] tests = new string[3, 4]
 	{
-		{"Tom brushes his", "teeth", ".", "\u7259\u9f7f"},
-		{"Tom eats a big", "breakfast", ".", "\u65e9\u9910"}
+		{"Tom brushes his", "teeth", ".", "牙齿"},
+		{"Tom eats a big", "breakfast", ".", "早餐"},
+		{"Tom takes a", "shower", ".", "洗澡"},
 	};
 
 	void Start()
 	{
 		CreateSentence(0);
 
-		for (int i = 0; i < tests.GetLength(1); ++i)
+		for (int i = 0; i < tests.GetLength(0); ++i)
 		{
 			CreateNoun(i);
 		}
