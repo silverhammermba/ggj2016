@@ -1,0 +1,60 @@
+{"Situations":
+[
+
+{
+"Name":"Home/Morning", 
+"WordBank":[
+{"en":"shower", "zh":""},
+{"en":"breakfast", "zh":""},
+{"en":"teeth", "zh":""},
+{"en":"clothes", "zh":""},
+{"en":"toilet", "zh":""},
+{"en":"shoes", "zh":""},
+{"en":"newspaper", "zh":""},
+{"en":"refridgerator", "zh":""}
+], 
+"Challenges":
+[
+{"Phrase":"Take a {0}", "Answer":"shower", "Animation":""},
+{"Phrase":"Eat {0}", "Answer":"breakfast", "Animation":""},
+{"Phrase":"Brush {0}", "Answer":"teeth", "Animation":""},
+{"Phrase":"Put on {0}", "Answer":"shoes", "Animation":""},
+{"Phrase":"Pee in the {0}", "Answer":"toilet", "Animation":""},
+{"Phrase":"Put on {0}", "Answer":"clothes", "Animation":""},
+{"Phrase":"Read the {0}", "Answer":"newspaper", "Animation":""},
+{"Phrase":"Open the {0}", "Answer":"refridgerator", "Animation":""}
+
+]
+},
+{"Name":"Work",
+"WordBank":[
+{"en":"boss", "zh":""},
+{"en":"computer", "zh":""},
+{"en":"email", "zh":""},
+{"en":"document", "zh":""},
+{"en":"customer", "zh":""}
+
+],
+"Challenges":
+[
+{"Phrase":"Greet the {0}", "Answer":"boss", "Animation":""},
+{"Phrase":"Turn on the {0}", "Answer":"computer", "Animation":""},
+{"Phrase":"Read {0}", "Answer":"email", "Animation":""},
+{"Phrase":"Print a {0}", "Answer":"document", "Animation":""},
+{"Phrase":"Call a {0}", "Answer":"customer", "Animation":""}
+
+]
+
+
+
+
+},
+{"Name":"Airport"},
+{"Name":"Restaurant"},
+{"Name":"Home/Evening"},
+{"Name":"School"},
+{"Name":"Grocery store"},
+{"Name":"Subway"}
+
+]
+}
