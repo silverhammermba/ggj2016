@@ -8,12 +8,11 @@ public class TestManager : MonoBehaviour
 
 	/// player
 	public GameObject player;
-	
 
 	public RectTransform topBar;
 	public RectTransform bottomBar;
 
-	int sentenceIndex = 3;
+	int sentenceIndex = 5;
 	Sentence currentSentence = null;
 
 	// hardcoded challenges
@@ -68,10 +67,7 @@ public class TestManager : MonoBehaviour
 		currentSentence = st.GetComponent<Sentence>();
 		currentSentence.Setup(tests[i, 0], tests[i, 1], tests[i, 3]);
 		st.transform.SetParent(topBar);
-		st.transform.localPosition = new Vector3(0f, -50f);
-
-		//Player
-		//player.GetComponent<Animator> ().SetTrigger("eatNow");
+		st.transform.localPosition = new Vector3(0f, -20f);
 	}
 
 	// create a noun button from the hardcoded list
