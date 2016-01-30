@@ -4,8 +4,9 @@ using System.Collections;
 
 public class Sentence : MonoBehaviour
 {
-	public string before;
-	public string after;
+	string before;
+	string correct;
+	string after;
 
 	public Text beforeText;
 	public Text afterText;
@@ -13,6 +14,13 @@ public class Sentence : MonoBehaviour
 
 	public float blankPad = 10f;
 	public float dropThreshold = 50f;
+
+	public void Setup(string bef, string cor, string aft)
+	{
+		before = bef;
+		correct = cor;
+		after = aft;
+	}
 
 	void Start()
 	{

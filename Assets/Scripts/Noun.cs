@@ -1,10 +1,17 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class Noun : MonoBehaviour
 {
 	bool dragging = false;
 	public string english;
+
+	public void Setup(string cn, string en)
+	{
+		transform.GetChild(0).gameObject.GetComponent<Text>().text = cn;
+		english = en;
+	}
 
 	void Update ()
 	{
