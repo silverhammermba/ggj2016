@@ -6,22 +6,26 @@ public class TestManager : MonoBehaviour
 	public GameObject sentence;
 	public GameObject noun;
 
+	/// player
+	public GameObject player;
+	
+
 	public RectTransform topBar;
 	public RectTransform bottomBar;
 
-	int sentenceIndex = 0;
+	int sentenceIndex = 3;
 	Sentence currentSentence = null;
 
 	// hardcoded challenges
-	string[,] tests = new string[7, 3]
+	string[,] tests = new string[7, 4]
 	{
-		{"Tom takes a _.", "shower", "洗澡"},
-		{"Tom pees in the _.", "toilet", "卫生间"},
-		{"Tom opens the _.", "refrigerator", "冰箱"},
-		{"Tom eats a big _.", "breakfast", "早餐"},
-		{"Tom brushes his _.", "teeth", "牙齿"},
-		{"Tom wears his _.", "clothes", "衣服"},
-		{"Tom puts on his _.", "shoes", "鞋子"},
+		{"Tom takes a _.", "shower", "洗澡", "take"},
+		{"Tom pees in the _.", "toilet", "卫生间", "pee"},
+		{"Tom opens the _.", "refrigerator", "冰箱", "open"},
+		{"Tom eats a big _.", "breakfast", "早餐", "eat"},
+		{"Tom brushes his _.", "teeth", "牙齿", "brush"},
+		{"Tom wears his _.", "clothes", "衣服", "wear"},
+		{"Tom puts on his _.", "shoes", "鞋子", "putOn"},
 	};
 
 	void Start()
@@ -62,9 +66,12 @@ public class TestManager : MonoBehaviour
 	{
 		GameObject st = Instantiate(sentence, new Vector3(0f, 0f, 0f), Quaternion.identity) as GameObject;
 		currentSentence = st.GetComponent<Sentence>();
-		currentSentence.Setup(tests[i, 0], tests[i, 1]);
+		currentSentence.Setup(tests[i, 0], tests[i, 1], tests[i, 3]);
 		st.transform.SetParent(topBar);
 		st.transform.localPosition = new Vector3(0f, -50f);
+
+		//Player
+		//player.GetComponent<Animator> ().SetTrigger("eatNow");
 	}
 
 	// create a noun button from the hardcoded list
@@ -73,4 +80,7 @@ public class TestManager : MonoBehaviour
 		GameObject nn = Instantiate(noun, new Vector3(0f, 0f, 0f), Quaternion.identity) as GameObject;
 		nn.GetComponentInChildren<Noun>().Setup(tests[i, 2], tests[i, 1], bottomBar);
 	}
+
+
+
 }

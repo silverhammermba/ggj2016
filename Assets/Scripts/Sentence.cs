@@ -16,11 +16,14 @@ public class Sentence : MonoBehaviour
 	string sentence;
 	string correct;
 	int blankIndex;
+	string animTag;
 
-	public void Setup(string sent, string cor)
+	public void Setup(string sent, string cor, string animTag)
 	{
 		sentence = sent;
 		correct = cor;
+		this.animTag = animTag;
+
 
 		if ((blankIndex = sentence.IndexOf("_")) < 0)
 			Debug.Log("Can't find blank in sentence: " + sentence);
@@ -40,15 +43,21 @@ public class Sentence : MonoBehaviour
 		text.text = sentence.Substring(0, blankIndex) + str + sentence.Substring(blankIndex + 1, sentence.Length - blankIndex - 1);
 	}
 
-	public void FillIn(GameObject word)
+	public void FillIn(GameObject word )
 	{
 		float dist = Vector3.Distance(word.transform.position, transform.position);
+		string eng = word.GetComponent<Noun>().english;
 
 		if (dist < dropThreshold)
 		{
-			string eng = word.GetComponent<Noun>().english;
 			string colhex = ColorUtility.ToHtmlStringRGB(eng == correct ? correctColor : wrongColor);
 			SetBlank("<color=#" + colhex + ">" +  eng + "</color>");
 		}
+
+		//animation
+		GameObject player = GameObject.FindWithTag ("Player");
+		Debug.Log (player);
+		PlayerControl pc = player.GetComponent<PlayerControl> ();
+		pc.beginAnimation(GameObject.FindWithTag(eng), "eat");
 	}
 }

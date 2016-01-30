@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Sentence.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Sentence.cs" Line="49" Column="33" />
+      <File FileName="Assets/Scripts/Noun.cs" Line="58" Column="25" />
+      <File FileName="Assets/Scripts/PlayerControl.cs" Line="23" Column="4" />
+      <File FileName="Assets/Scripts/TestManager.cs" Line="39" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
