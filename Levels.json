@@ -25,7 +25,36 @@
 {"Phrase":"Open the {0}", "Answer":"refridgerator", "Animation":""}
 
 ]
-}
+},
+{"Name":"Work",
+"WordBank":[
+{"en":"boss", "zh":""},
+{"en":"computer", "zh":""},
+{"en":"email", "zh":""},
+{"en":"document", "zh":""},
+{"en":"customer", "zh":""}
+
+],
+"Challenges":
+[
+{"Phrase":"Greet the {0}", "Answer":"boss", "Animation":""},
+{"Phrase":"Turn on the {0}", "Answer":"computer", "Animation":""},
+{"Phrase":"Read {0}", "Answer":"email", "Animation":""},
+{"Phrase":"Print a {0}", "Answer":"document", "Animation":""},
+{"Phrase":"Call a {0}", "Answer":"customer", "Animation":""}
+
+]
+
+
+
+
+},
+{"Name":"Airport"},
+{"Name":"Restaurant"},
+{"Name":"Home/Evening"},
+{"Name":"School"},
+{"Name":"Grocery store"},
+{"Name":"Subway"}
 
 ]
 }
