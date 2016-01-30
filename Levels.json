@@ -1,0 +1,31 @@
+{"Situations":
+[
+
+{
+"Name":"Home/Morning", 
+"WordBank":[
+{"en":"shower", "zh":""},
+{"en":"breakfast", "zh":""},
+{"en":"teeth", "zh":""},
+{"en":"clothes", "zh":""},
+{"en":"toilet", "zh":""},
+{"en":"shoes", "zh":""},
+{"en":"newspaper", "zh":""},
+{"en":"refridgerator", "zh":""}
+], 
+"Challenges":
+[
+{"Phrase":"Take a {0}", "Answer":"shower", "Animation":""},
+{"Phrase":"Eat {0}", "Answer":"breakfast", "Animation":""},
+{"Phrase":"Brush {0}", "Answer":"teeth", "Animation":""},
+{"Phrase":"Put on {0}", "Answer":"shoes", "Animation":""},
+{"Phrase":"Pee in the {0}", "Answer":"toilet", "Animation":""},
+{"Phrase":"Put on {0}", "Answer":"clothes", "Animation":""},
+{"Phrase":"Read the {0}", "Answer":"newspaper", "Animation":""},
+{"Phrase":"Open the {0}", "Answer":"refridgerator", "Animation":""}
+
+]
+}
+
+]
+}
