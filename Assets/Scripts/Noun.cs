@@ -4,6 +4,7 @@ using System.Collections;
 public class Noun : MonoBehaviour
 {
 	bool dragging = false;
+	public string english;
 
 	void Update ()
 	{

@@ -25,10 +25,13 @@ public class Sentence : MonoBehaviour
 
 	public void FillIn(GameObject word)
 	{
-		float dist = Vector3.Distance(word.transform.position, transform.GetChild(1).position);
+		float dist = Vector3.Distance(word.transform.position, blank.position);
 		if (dist < dropThreshold)
 		{
-			Debug.Log("close enough!");
+			blank.gameObject.SetActive(false);
+			afterText.text = " " + word.GetComponent<Noun>().english + ".";
+			afterText.transform.localPosition = new Vector3(0f, 0f, 0f);
+			GameObject.Destroy(word.transform.parent.gameObject);
 		}
 		else
 		{
