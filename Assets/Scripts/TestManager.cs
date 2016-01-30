@@ -6,6 +6,9 @@ public class TestManager : MonoBehaviour
 	public GameObject sentence;
 	public GameObject noun;
 
+	public RectTransform topBar;
+	public RectTransform bottomBar;
+
 	string[,] tests = new string[2, 4]
 	{
 		{"Tom brushes his", "teeth", ".", "\u7259\u9f7f"},
@@ -14,19 +17,28 @@ public class TestManager : MonoBehaviour
 
 	void Start()
 	{
-		Transform canvas = GameObject.FindWithTag("canvas").transform;
+		CreateSentence(0);
 
+		for (int i = 0; i < tests.GetLength(1); ++i)
+		{
+			CreateNoun(i);
+		}
+	}
+
+	void CreateSentence(int i)
+	{
 		// create a sentence
 		GameObject st = Instantiate(sentence, new Vector3(0f, 0f, 0f), Quaternion.identity) as GameObject;
-		st.GetComponent<Sentence>().Setup(tests[0, 0], tests[0, 1], tests[0, 2]);
-		st.transform.SetParent(canvas);
+		st.GetComponent<Sentence>().Setup(tests[i, 0], tests[i, 1], tests[i, 2]);
+		st.transform.SetParent(topBar);
+		st.transform.localPosition = new Vector3(0f, -50f);
+	}
 
+	void CreateNoun(int i)
+	{
 		// and a noun button
 		// TODO add this button to a list that is scrambled up
 		GameObject nn = Instantiate(noun, new Vector3(0f, 0f, 0f), Quaternion.identity) as GameObject;
-		nn.GetComponentInChildren<Noun>().Setup(tests[0, 3], tests[0, 1]);
-		nn.transform.SetParent(canvas);
-
-		// TODO actually place them both in the correct positions
+		nn.GetComponentInChildren<Noun>().Setup(tests[i, 3], tests[i, 1], bottomBar);
 	}
 }
