@@ -12,6 +12,11 @@ public class PlayerControl : MonoBehaviour
 
 	public void doThing(string noun, string verb)
 	{
+		//Move away the thinking
+		PlayerControl pc = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
+		pc.thinking (new Vector3 (100f, 100f, 100f));
+
+
 		GameObject item = GameObject.FindWithTag(noun);
 		// TODO walk over to the thing
 
@@ -35,4 +40,14 @@ public class PlayerControl : MonoBehaviour
 			anim.SetTrigger(verb);
 		}
 	}
+
+	public void thinking (Vector3 vector){
+		GameObject obj = GameObject.FindWithTag ("bubble");
+		obj.transform.localPosition = GameObject.FindWithTag ("Player").transform.position + new Vector3 (0.4f,0.5f,0);
+	}
+
+
+
+
+
 }

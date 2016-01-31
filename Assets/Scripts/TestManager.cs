@@ -69,6 +69,15 @@ public class TestManager : MonoBehaviour
 		currentSentence.Setup(tests[i, 0], tests[i, 1], tests[i, 3]);
 		st.transform.SetParent(topBar);
 		st.transform.localPosition = new Vector3(0f, -20f);
+
+
+		//Starting the thinking bubble
+		PlayerControl pc = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
+		Vector3 vector = (Vector3)(GameObject.FindWithTag ("Player").transform.position + new Vector3 (0.4f, 0.5f, 0));
+		pc.thinking(vector);
+		TextMesh tMesh = GameObject.FindWithTag ("bubbleText").GetComponent<TextMesh> ();
+		tMesh.text = tests [i, 1];
+
 	}
 
 	// create a noun button from the hardcoded list
