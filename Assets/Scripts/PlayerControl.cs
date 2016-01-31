@@ -25,9 +25,7 @@ public class PlayerControl : MonoBehaviour
 
 	public void doThing(string noun, string verb)
 	{
-		//Move away the thinking
-		//PlayerControl pc = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
-		//pc.thinking (new Vector3 (100f, 100f, 100f));
+
 
 
 		GameObject item = GameObject.FindWithTag(noun);

@@ -15,14 +15,14 @@ public class Sentence : MonoBehaviour
 	Text text;
 
 	string sentence;
-	string correct;
+	string correctKey;
 	int blankIndex;
 	string animTag;
 
-	public void Setup(string sent, string cor, string atag)
+	public void Setup(string sent, string correctKey, string atag)
 	{
 		sentence = sent;
-		correct = cor;
+		this.correctKey = correctKey;
 		animTag = atag;
 
 
@@ -49,14 +49,15 @@ public class Sentence : MonoBehaviour
 		// TODO make drag'n'drop work based on the bounding box, not the center
 		float dist = Vector3.Distance(word.transform.position, transform.position);
 
-		string eng = word.GetComponent<Noun>().english;
+		string native = word.GetComponent<Noun>().native;
+		string key = word.GetComponent<Noun>().key;
 
 		if (dist < dropThreshold)
 		{
-			bool isCorrect = eng == correct;
+			bool isCorrect = key == correctKey;
 			Debug.Log ("correct: " + isCorrect);
 			string colhex = ColorUtility.ToHtmlStringRGB(isCorrect ? correctColor : wrongColor);
-			SetBlank("<color=#" + colhex + ">" +  eng + "</color>");
+			SetBlank("<color=#" + colhex + ">" +  native + "</color>");
 
 			if (isCorrect) {
 				//load next sentence after 5 seconds
@@ -70,11 +71,11 @@ public class Sentence : MonoBehaviour
 			//animation
 			PlayerControl pc = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
 			//		pc.doThing(eng, animTag);
-			Transform target = GameObject.FindWithTag (eng).transform;
+			Transform target = GameObject.FindWithTag (key).transform;
 			if (target.childCount>0) {
 				target = target.GetChild (0);
 			}
-			pc.setTarget (target.position, eng, animTag);
+			pc.setTarget (target.position, key, animTag);
 		}
 	}
 
