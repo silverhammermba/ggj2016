@@ -66,11 +66,18 @@ public class Sentence : MonoBehaviour
 
 				Invoke ("restart", 5);
 			}
+
+			//animation
+			PlayerControl pc = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
+			//		pc.doThing(eng, animTag);
+			Transform target = GameObject.FindWithTag (eng).transform;
+			if (target.childCount>0) {
+				target = target.GetChild (0);
+			}
+			pc.setTarget (target.position, eng, animTag);
 		}
 
-		//animation
-		PlayerControl pc = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
-		pc.doThing(eng, animTag);
+
 	}
 
 	void cleanupAndLoadNext(){

@@ -3,7 +3,20 @@ using System.Collections;
 
 public class PlayerControl : MonoBehaviour
 {
+	private float speed = 1.0f;
+	private Vector3 target = Vector3.zero;
 	Animator anim;
+
+	private Transform playerHand;
+	private string targetNoun, targetVerb;
+
+	private bool removeTarget = false;
+
+	void Start()
+	{
+		playerHand = transform.GetChild (0);
+
+	}
 
 	void Awake()
 	{
@@ -27,6 +40,10 @@ public class PlayerControl : MonoBehaviour
 
 			// start animation
 			anim.SetTrigger(verb);
+
+			// make sure that the target gets removed
+			removeTarget = true;
+
 		}
 		// verbs that play an animation
 		else if (verb == "shower" || verb == "pee")
@@ -35,4 +52,34 @@ public class PlayerControl : MonoBehaviour
 			anim.SetTrigger(verb);
 		}
 	}
+
+	void Update(){
+		if (target != Vector3.zero) {
+			transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+
+			if (target.x == transform.position.x) {
+				target = Vector3.zero;
+				anim.SetBool("walking", false);
+				doThing(targetNoun, targetVerb);
+			}
+		}
+	}
+
+	public void setTarget(Vector3 dest, string noun, string verb){
+		target = new Vector3 (dest.x, transform.position.y, transform.position.z);
+		targetNoun = noun;
+		targetVerb = verb;
+
+		//TODO trigger walk
+		anim.SetBool("walking", true);
+	}
+
+	public void onHandsAnimationExit(){
+		if (playerHand.childCount > 0 && removeTarget) {
+			Destroy (playerHand.GetChild(0).gameObject);
+			removeTarget = false;
+		}
+
+	}
+
 }
