@@ -115,7 +115,7 @@ public class LevelLoader {
 
 		c = new Challenge ();
 		c.Phrases.Add("en", "Tom puts on his _.");
-		c.Phrases.Add("zh", "汤姆穿 ___。");
+		c.Phrases.Add("zh", "汤姆穿 _。");
 		c.Phrases.Add("ja", "トムさんは_を履きました。");
 		c.Answer = s.WordBank["shoes"];
 		c.Animation = "putOn";
