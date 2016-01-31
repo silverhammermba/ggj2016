@@ -60,7 +60,7 @@ public class LevelLoader {
 
 		c = new Challenge ();
 		c.Phrases.Add("en", "Tom pees in the _.");
-		c.Answer = s.WordBank["shower"];
+		c.Answer = s.WordBank["toilet"];
 		c.Animation = "pee";
 		s.Challenges.Add (c);
 
@@ -100,6 +100,7 @@ public class LevelLoader {
 		c.Animation = "putOn";
 		s.Challenges.Add (c);
 
+		return s;
 
 	}
 

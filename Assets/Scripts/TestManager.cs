@@ -6,7 +6,7 @@ public class TestManager : MonoBehaviour
 {
 
 	public const string NativeLang = "en";
-	public const string LearningLang = "zh"; //zh, ja
+	public const string LearningLang = "en"; //zh, ja, en
 
 	public GameObject sentence;
 	public GameObject noun;
@@ -66,7 +66,7 @@ public class TestManager : MonoBehaviour
 		//Starting the thinking bubble
 		PlayerControl pc = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
 		Vector3 vector = (Vector3)(GameObject.FindWithTag ("Player").transform.position + new Vector3 (0.25f,0.3f, 0));
-		pc.thinking(tests [i, 1], vector);
+		pc.thinking(c.Answer.langs["en"], vector);
 	}
 
 	// create a noun button from the hardcoded list
