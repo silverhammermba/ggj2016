@@ -21,63 +21,27 @@ public class TestManager : MonoBehaviour
 
 	Sentence currentSentence = null;
 
-	// hardcoded challenges
-	string[,] tests;
+	Situation tests;
 
 	public TestManager(){
-		if (LearningLang == "zh") {
-			tests = new string[,] {
-				//0:challenge		1:native word	2:foreign word	3:word key	4:animation	key
-				{ "Tom pees in the _.", "toilet", "卫生间", "toilet", "pee" },
-				{ "Tom takes a _.", "shower", "洗澡", "shower", "shower" },
-				{ "Tom wears his _.", "clothes", "衣服", "clothes", "wear" },
-				{ "Tom opens the _.", "refrigerator", "冰箱", "refrigerator", "open" },
-				{ "Tom eats a big _.", "breakfast", "早餐", "breakfast", "eat" },
-				{ "Tom reads the _.", "newspaper", "报纸", "newspaper", "read" },
-				{ "Tom puts on his _.", "shoes", "鞋子", "shoes", "putOn" },
-			};
-		} else if (LearningLang == "ja") {
-			tests = new string[,]
-			{
-				//0:challenge		1:native word	2:foreign word	3:word key	4:animation	key
-				{"Tom pees in the _.", "toilet", "トイレ", "toilet", "pee"},
-				{"Tom takes a _.", "shower", "シャワー", "shower", "shower"},
-				{"Tom wears his _.", "clothes", "服", "clothes", "wear"},
-				{"Tom opens the _.", "refrigerator", "冷蔵庫", "refrigerator", "open"},
-				{"Tom eats a big _.", "breakfast", "朝ごはん", "breakfast", "eat"},
-				{"Tom reads the _.", "newspaper", "新聞", "newspaper", "read"},
-				{"Tom puts on his _.", "shoes", "靴", "shoes", "putOn"},
-			};
-		}
+		tests = LevelLoader.loadup ();
 	}
 
 	void Start()
 	{
 		NextSentence();
 
-		int num = tests.GetLength(0);
+		//TODO scramble this word order again
 
-		// decide a random order to add nouns
-		int[] indices = new int[num];
-		for (int i = 0; i < num; ++i) indices[i] = i;
-		for (int i = 0; i < num - 1; ++i)
-		{
-			int swp = Random.Range(i, num);
-			int tmp = indices[swp];
-			indices[swp] = indices[i];
-			indices[i] = tmp;
+		foreach (Word w in tests.WordBank.Values) {
+			CreateNoun (w);
 		}
 
-		// add nouns
-		for (int i = 0; i < num; ++i)
-		{
-			CreateNoun(indices[i]);
-		}
 	}
 
 	public void NextSentence()
 	{
-		if (sentenceIndex == tests.Length) {
+		if (sentenceIndex == tests.Challenges.Count) {
 			//the player wins!
 			Debug.Log("you win!");
 		}
@@ -93,7 +57,8 @@ public class TestManager : MonoBehaviour
 	{
 		GameObject st = Instantiate(sentence, new Vector3(0f, 0f, 0f), Quaternion.identity) as GameObject;
 		currentSentence = st.GetComponent<Sentence>();
-		currentSentence.Setup(tests[i, 0], tests[i, 3], tests[i, 4]);
+		Challenge c = tests.Challenges [i];
+		currentSentence.Setup(c.Phrases[NativeLang], c.Answer.langs["en"], c.Animation);
 		st.transform.SetParent(topBar);
 		st.transform.localPosition = new Vector3(0f, -20f);
 
@@ -108,10 +73,11 @@ public class TestManager : MonoBehaviour
 	}
 
 	// create a noun button from the hardcoded list
-	void CreateNoun(int i)
+	void CreateNoun(Word w)
 	{
 		GameObject nn = Instantiate(noun, new Vector3(0f, 0f, 0f), Quaternion.identity) as GameObject;
-		nn.GetComponentInChildren<Noun>().Setup(tests[i, 3], tests[i, 2], tests[i, 1], bottomBar);
+		//key, foreign, native
+		nn.GetComponentInChildren<Noun>().Setup(w.langs["en"], w.langs[LearningLang], w.langs[NativeLang], bottomBar);
 	}
 		 
 }
