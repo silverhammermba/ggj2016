@@ -82,13 +82,10 @@ public class PlayerControl : MonoBehaviour
 			Destroy (playerHand.GetChild(0).gameObject);
 			removeTarget = false;
 		}
-
 	}
 
 	public void thinking (Vector3 vector){
-//		GameObject obj = GameObject.FindWithTag ("bubble");
-//		obj.transform.localPosition = GameObject.FindWithTag ("Player").transform.position + new Vector3 (0.4f,0.5f,0);
+		GameObject obj = GameObject.FindWithTag ("bubble");
+		obj.transform.localPosition = vector;
 	}
-
-
 }
