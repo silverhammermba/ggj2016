@@ -48,34 +48,11 @@ public class GameStateManager : MonoBehaviour {
 	
 	}
 
-	public void setBaseLangZh(){
-		NativeLang = Chinese;
-	}
 
-	public void setBaseLangJa(){
-		NativeLang = Japanese;
-	}
-
-	public void setBaseLangEn(){
-		NativeLang = English;
-	}
-
-	public void setTargetLangZh(){
-		LearningLang = Chinese;
-	}
-
-	public void setTargetLangJa(){
-		LearningLang = Japanese;
-	}
-
-	public void setTargetLangEn(){
-		LearningLang = English;
-	}
-
-	public void StartLevel(){
-		Debug.Log ("starting level");
+	public void StartLevel(string name){
+		Debug.Log ("starting level: "+name);
 		//TODO only start if language selected
 
-		SceneManager.LoadScene ("Morning");
+		SceneManager.LoadScene (name);
 	}
 }

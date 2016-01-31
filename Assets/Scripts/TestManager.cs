@@ -41,6 +41,8 @@ public class TestManager : MonoBehaviour
 		if (sentenceIndex == tests.Challenges.Count) {
 			//the player wins!
 			Debug.Log("you win!");
+			GameStateManager.instance.StartLevel ("TitleScreen");
+			return;
 		}
 		if (currentSentence != null)
 		{
