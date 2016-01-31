@@ -60,6 +60,11 @@ public class PlayerControl : MonoBehaviour
 		{
 			// start animation
 			anim.SetTrigger(verb);
+
+			if (verb=="putOn" && noun == "shoes") {
+				item.transform.SetParent(transform.GetChild(0).transform);
+				removeTarget = true;
+			}
 		}
 	}
 
