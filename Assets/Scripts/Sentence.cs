@@ -64,7 +64,7 @@ public class Sentence : MonoBehaviour
 
 		//animation
 		PlayerControl pc = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
-		pc.doThing(GameObject.FindWithTag(eng), animTag);
+		pc.doThing(eng, animTag);
 	}
 		
 	void cleanupAndLoadNext(){
