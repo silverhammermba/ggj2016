@@ -13,46 +13,53 @@ public class LevelLoader {
 		Word w;
 
 		w = new Word ();
+		w.key = "toilet";
 		w.langs.Add ("en", "toilet");
 		w.langs.Add ("zh", "卫生间");
 		w.langs.Add ("ja", "トイレ");
-		s.WordBank.Add (w.langs["en"], w);
+		s.WordBank.Add (w.key, w);
 
 		w = new Word ();
+		w.key = "shower";
 		w.langs.Add ("en", "shower");
 		w.langs.Add ("zh", "洗澡");
 		w.langs.Add ("ja", "シャワー");
-		s.WordBank.Add (w.langs["en"], w);
+		s.WordBank.Add (w.key, w);
 
 		w = new Word ();
+		w.key = "clothes";
 		w.langs.Add ("en", "clothes");
 		w.langs.Add ("zh", "衣服");
 		w.langs.Add ("ja", "服");
-		s.WordBank.Add (w.langs["en"], w);
+		s.WordBank.Add (w.key, w);
 
 		w = new Word ();
+		w.key = "refrigerator";
 		w.langs.Add ("en", "refrigerator");
 		w.langs.Add ("zh", "冰箱");
 		w.langs.Add ("ja", "冷蔵庫");
-		s.WordBank.Add (w.langs["en"], w);
+		s.WordBank.Add (w.key, w);
 
 		w = new Word ();
+		w.key = "breakfast";
 		w.langs.Add ("en", "breakfast");
 		w.langs.Add ("zh", "早餐");
 		w.langs.Add ("ja", "朝ごはん");
-		s.WordBank.Add (w.langs["en"], w);
+		s.WordBank.Add (w.key, w);
 
 		w = new Word ();
+		w.key = "newspaper";
 		w.langs.Add ("en", "newspaper");
 		w.langs.Add ("zh", "报纸");
 		w.langs.Add ("ja", "新聞");
-		s.WordBank.Add (w.langs["en"], w);
+		s.WordBank.Add (w.key, w);
 
 		w = new Word ();
+		w.key = "shoes";
 		w.langs.Add ("en", "shoes");
 		w.langs.Add ("zh", "鞋子");
 		w.langs.Add ("ja", "靴");
-		s.WordBank.Add (w.langs["en"], w);
+		s.WordBank.Add (w.key, w);
 
 
 

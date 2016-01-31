@@ -4,9 +4,12 @@ using System.Collections;
 
 public class TestManager : MonoBehaviour
 {
+	const string English = "en";
+	const string Chinese = "zh";
+	const string Japanese = "ja";
 
-	public const string NativeLang = "en";
-	public const string LearningLang = "zh"; //zh, ja, en
+	public const string NativeLang = English;
+	public const string LearningLang = Chinese;
 
 	public GameObject sentence;
 	public GameObject noun;
@@ -58,7 +61,7 @@ public class TestManager : MonoBehaviour
 		GameObject st = Instantiate(sentence, new Vector3(0f, 0f, 0f), Quaternion.identity) as GameObject;
 		currentSentence = st.GetComponent<Sentence>();
 		Challenge c = tests.Challenges [i];
-		currentSentence.Setup(c.Phrases[NativeLang], c.Answer.langs["en"], c.Animation);
+		currentSentence.Setup(c.Phrases[NativeLang], c.Answer.key, c.Animation);
 		st.transform.SetParent(topBar);
 		st.transform.localPosition = new Vector3(0f, -20f);
 
@@ -66,7 +69,7 @@ public class TestManager : MonoBehaviour
 		//Starting the thinking bubble
 		PlayerControl pc = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
 		Vector3 vector = (Vector3)(GameObject.FindWithTag ("Player").transform.position + new Vector3 (0.25f,0.3f, 0));
-		pc.thinking(c.Answer.langs["en"], vector);
+		pc.thinking(c.Answer.key, vector);
 	}
 
 	// create a noun button from the hardcoded list
@@ -74,7 +77,7 @@ public class TestManager : MonoBehaviour
 	{
 		GameObject nn = Instantiate(noun, new Vector3(0f, 0f, 0f), Quaternion.identity) as GameObject;
 		//key, foreign, native
-		nn.GetComponentInChildren<Noun>().Setup(w.langs["en"], w.langs[LearningLang], w.langs[NativeLang], bottomBar);
+		nn.GetComponentInChildren<Noun>().Setup(w.key, w.langs[LearningLang], w.langs[NativeLang], bottomBar);
 	}
 		 
 }
