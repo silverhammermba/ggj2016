@@ -25,9 +25,6 @@ public class PlayerControl : MonoBehaviour
 
 	public void doThing(string noun, string verb)
 	{
-
-
-
 		GameObject item = GameObject.FindWithTag(noun);
 		// TODO walk over to the thing
 
@@ -103,7 +100,11 @@ public class PlayerControl : MonoBehaviour
 		}
 
 		clone.transform.SetParent (bubble.transform);
-
 		target.position = bubble.transform.position + new Vector3 (0.08f, 0.12f, 0f);
+		float ratio = bubble.transform.localScale.x / target.transform.localScale.x;
+
+
+		target.transform.localScale *= ratio;
+
 	}
 }
