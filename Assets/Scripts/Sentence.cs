@@ -4,7 +4,7 @@ using System.Collections;
 
 public class Sentence : MonoBehaviour
 {
-	public float dropThreshold = 50f;
+	private float dropThreshold = 100f;
 
 	public Color correctColor = Color.green;
 	public Color wrongColor = Color.red;
@@ -46,16 +46,28 @@ public class Sentence : MonoBehaviour
 	public void FillIn(GameObject word )
 	{
 		float dist = Vector3.Distance(word.transform.position, transform.position);
+//		Debug.Log ("dist: " + dist);
 		string eng = word.GetComponent<Noun>().english;
 
 		if (dist < dropThreshold)
 		{
-			string colhex = ColorUtility.ToHtmlStringRGB(eng == correct ? correctColor : wrongColor);
+			bool isCorrect = eng == correct;
+			Debug.Log ("correct: " + isCorrect);
+			string colhex = ColorUtility.ToHtmlStringRGB(isCorrect ? correctColor : wrongColor);
 			SetBlank("<color=#" + colhex + ">" +  eng + "</color>");
+
+			if (isCorrect) {
+				//load next sentence after 5 seconds
+				Invoke("cleanupAndLoadNext",5);
+			}
 		}
 
 		//animation
 		PlayerControl pc = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
 		pc.doThing(eng, animTag);
+	}
+		
+	void cleanupAndLoadNext(){
+		GameObject.Find("TestManager").GetComponent<TestManager>().NextSentence();
 	}
 }

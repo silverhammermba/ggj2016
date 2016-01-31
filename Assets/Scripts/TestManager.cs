@@ -12,11 +12,12 @@ public class TestManager : MonoBehaviour
 	public RectTransform topBar;
 	public RectTransform bottomBar;
 
-	int sentenceIndex = 5;
+	int sentenceIndex = 0;
+
 	Sentence currentSentence = null;
 
 	// hardcoded challenges
-	string[,] tests = new string[7, 4]
+	string[,] tests = new string[,]
 	{
 		{"Tom pees in the _.", "toilet", "卫生间", "pee"},
 		{"Tom takes a _.", "shower", "洗澡", "shower"},
