@@ -18,12 +18,12 @@ public class TestManager : MonoBehaviour
 	// hardcoded challenges
 	string[,] tests = new string[7, 4]
 	{
-		{"Tom takes a _.", "shower", "洗澡", "take"},
 		{"Tom pees in the _.", "toilet", "卫生间", "pee"},
+		{"Tom takes a _.", "shower", "洗澡", "shower"},
+		{"Tom wears his _.", "clothes", "衣服", "wear"},
 		{"Tom opens the _.", "refrigerator", "冰箱", "open"},
 		{"Tom eats a big _.", "breakfast", "早餐", "eat"},
 		{"Tom brushes his _.", "teeth", "牙齿", "brush"},
-		{"Tom wears his _.", "clothes", "衣服", "wear"},
 		{"Tom puts on his _.", "shoes", "鞋子", "putOn"},
 	};
 
