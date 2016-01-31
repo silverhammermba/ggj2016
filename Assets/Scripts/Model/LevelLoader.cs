@@ -67,42 +67,56 @@ public class LevelLoader {
 
 		c = new Challenge ();
 		c.Phrases.Add("en", "Tom pees in the _.");
+		c.Phrases.Add ("zh", "汤姆在 _ 小便。");
+		c.Phrases.Add ("ja", "トムさんは_を使いました。");
 		c.Answer = s.WordBank["toilet"];
 		c.Animation = "pee";
 		s.Challenges.Add (c);
 
 		c = new Challenge ();
 		c.Phrases.Add("en", "Tom takes a _.");
+		c.Phrases.Add("zh", "汤姆去 _。");
+		c.Phrases.Add("ja", "トムさんは_を浴びました。");
 		c.Answer = s.WordBank["shower"];
 		c.Animation = "shower";
 		s.Challenges.Add (c);
 
 		c = new Challenge ();
 		c.Phrases.Add("en", "Tom wears his _.");
+		c.Phrases.Add("zh", "汤姆穿他的 _。");
+		c.Phrases.Add("ja", "トムさんは_を着ました。");
 		c.Answer = s.WordBank["clothes"];
 		c.Animation = "wear";
 		s.Challenges.Add (c);
 
 		c = new Challenge ();
 		c.Phrases.Add("en", "Tom opens the _.");
+		c.Phrases.Add("zh", "汤姆打开 _。");
+		c.Phrases.Add("ja", "トムさんは_を開けました。");
 		c.Answer = s.WordBank["refrigerator"];
 		c.Animation = "open";
 		s.Challenges.Add (c);
 
 		c = new Challenge ();
 		c.Phrases.Add("en", "Tom eats a big _.");
+		c.Phrases.Add("zh", "汤姆吃一个 _。");
+		c.Phrases.Add("ja", "トムさんは_を食べました。");
 		c.Answer = s.WordBank["breakfast"];
 		c.Animation = "eat";
 		s.Challenges.Add (c);
 
 		c = new Challenge ();
 		c.Phrases.Add("en", "Tom reads the _.");
+		c.Phrases.Add("zh", "汤姆读 _。");
+		c.Phrases.Add("ja", "トムさんは_を読みました。");
 		c.Answer = s.WordBank["newspaper"];
 		c.Animation = "read";
 		s.Challenges.Add (c);
 
 		c = new Challenge ();
 		c.Phrases.Add("en", "Tom puts on his _.");
+		c.Phrases.Add("zh", "汤姆穿 ___。");
+		c.Phrases.Add("ja", "トムさんは_を履きました。");
 		c.Answer = s.WordBank["shoes"];
 		c.Animation = "putOn";
 		s.Challenges.Add (c);
