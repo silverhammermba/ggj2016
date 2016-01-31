@@ -26,8 +26,8 @@ public class PlayerControl : MonoBehaviour
 	public void doThing(string noun, string verb)
 	{
 		//Move away the thinking
-		PlayerControl pc = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
-		pc.thinking (new Vector3 (100f, 100f, 100f));
+		//PlayerControl pc = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
+		//pc.thinking (new Vector3 (100f, 100f, 100f));
 
 
 		GameObject item = GameObject.FindWithTag(noun);
@@ -86,8 +86,15 @@ public class PlayerControl : MonoBehaviour
 		}
 	}
 
-	public void thinking (Vector3 vector){
+	public void thinking (String){
+
+
+
+
 		GameObject obj = GameObject.FindWithTag ("bubble");
 		obj.transform.localPosition = vector;
+
+
+
 	}
 }
