@@ -5,7 +5,8 @@ using System.Collections;
 public class Noun : MonoBehaviour
 {
 	bool dragging = false;
-	public string english;
+	public string key;
+	public string native;
 
 	Transform canvas;
 	RectTransform parent;
@@ -16,18 +17,19 @@ public class Noun : MonoBehaviour
 	{
 		canvas = GameObject.FindWithTag("canvas").transform;
 		asrc = GetComponent<AudioSource>();
-		clip = Resources.Load("Audio/" + english) as AudioClip;
+		clip = Resources.Load("Audio/"+TestManager.LearningLang+"_" + key) as AudioClip;
 		if (clip == null)
-			Debug.Log("Failed to load Audio/" + english);
+			Debug.Log("Failed to load Audio/" + key);
 		asrc.clip = clip;
 	}
 
-	public void Setup(string zh, string en, RectTransform grid)
+	public void Setup(string key, string foreign, string native, RectTransform grid)
 	{
+		this.key = key;
 		parent = grid;
 
-		transform.GetChild(0).gameObject.GetComponent<Text>().text = zh;
-		english = en;
+		transform.GetChild(0).gameObject.GetComponent<Text>().text = foreign;
+		this.native = native;
 		transform.SetParent(parent);
 	}
 
