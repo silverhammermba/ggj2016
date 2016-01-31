@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 99c98b13837d8744793b16c9053d736f
-timeCreated: 1454194570
+timeCreated: 1454262875
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -22,6 +22,12 @@ TextureImporter:
     21300030: guy_15
     21300032: guy_16
     21300034: guy_17
+    21300036: guy_18
+    21300038: guy_19
+    21300040: guy_20
+    21300042: guy_21
+    21300044: guy_22
+    21300046: guy_23
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -259,6 +265,72 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 115
+        y: 0
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: guy_18
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: guy_19
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: guy_20
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: guy_21
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: guy_22
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: guy_23
+      rect:
+        serializedVersion: 2
+        x: 253
         y: 0
         width: 23
         height: 40

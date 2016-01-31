@@ -3,6 +3,9 @@ using System.Collections;
 
 public class PlayerControl : MonoBehaviour
 {
+	public Sprite clothed;
+	public AnimatorOverrideController clothedAOC;
+
 	private float speed = 1.0f;
 	private Transform target = null;
 	private SpriteRenderer targetSprite = null;
@@ -44,8 +47,13 @@ public class PlayerControl : MonoBehaviour
 			anim.SetTrigger(verb);
 
 			// make sure that the target gets removed
-			if (verb == "take" || (verb == "wear" && noun == "clothes"))
+			if (verb == "take" || (verb == "wear" && noun != "clothes"))
+				removeTarget = false;
+			else
 				removeTarget = true;
+
+			if (verb == "wear" && noun == "clothes")
+				getDressed();
 		}
 		// verbs that play an animation
 		else if (verb == "shower" || verb == "pee")
@@ -78,43 +86,43 @@ public class PlayerControl : MonoBehaviour
 
 	public void setTarget(string noun, string verb)
 	{
-		//sprite.sortingLayerName = "Front";
-
-		//remove thinking bubble
+		// remove thinking bubble
 		bubble.SetActive(false);
 
 		target = GameObject.FindWithTag(noun).transform.GetChild(0);
-		if (targetSprite)
-			targetSprite.sortingLayerName = "Default";
 		targetSprite = target.parent.GetComponentInChildren<SpriteRenderer>();
 		targetPos = new Vector3(target.position.x, transform.position.y, transform.position.z);
 		targetNoun = noun;
 		targetVerb = verb;
 
-		//TODO trigger walk
 		anim.SetBool("walking", true);
+	}
+
+	void getDressed()
+	{
+		Debug.Log("dressed");
+		sprite.sprite = clothed;
+		anim.runtimeAnimatorController = clothedAOC;
 	}
 
 	public void onHandsAnimationExit()
 	{
 		if (removeTarget && playerHand.childCount > 0)
 		{
-			Destroy (playerHand.GetChild(0).gameObject); 
+			Destroy (playerHand.GetChild(0).gameObject);
 			removeTarget = false;
 		}
 	}
 
 	public void thinking (string itemToThink, Vector3 bubbleVector)
 	{
+		if (targetSprite)
+			targetSprite.sortingLayerName = "Default";
+
 		bubble.SetActive(true);
 
 		if (bubble.transform.childCount > 0)
 			Destroy (bubble.transform.GetChild(0).gameObject);
-
-		GameObject item = GameObject.FindWithTag(itemToThink);
-
-
-
 
 		SpriteRenderer targetRenderer = GameObject.FindWithTag(itemToThink).GetComponentInChildren<SpriteRenderer> ();
 		GameObject clone = Instantiate(targetRenderer.gameObject);
@@ -123,17 +131,9 @@ public class PlayerControl : MonoBehaviour
 		targetRenderer.sortingLayerName = "Front";
 		target = targetRenderer.transform;
 
-
-
 		clone.transform.SetParent(bubble.transform);
 
 		target.localPosition = new Vector3 (-0.01f, 0, 0);
-
-		//float ratioX = Mathf.Abs(bubble.transform.localScale.x / target.transform.localScale.x) * 0.8f;
-		//float ratioY = Mathf.Abs(bubble.transform.localScale.y / target.transform.localScale.y) * 0.8f;
-		//float ratio = Mathf.Min (ratioX,ratioY);
-		//target.transform.localScale *= ratio;
-
 
 		//New ration calculation
 		Sprite targetSp = targetRenderer.sprite;

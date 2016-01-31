@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 97fea6b111ab345ec8d8b7a29967b9cf
-timeCreated: 1454207108
+timeCreated: 1454263951
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,10 @@ TextureImporter:
     21300002: walking_1
     21300004: walking_2
     21300006: walking_3
+    21300008: walking_4
+    21300010: walking_5
+    21300012: walking_6
+    21300014: walking_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -58,7 +62,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 40
         width: 23
         height: 40
       alignment: 0
@@ -69,7 +73,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 23
-        y: 0
+        y: 40
         width: 23
         height: 40
       alignment: 0
@@ -80,7 +84,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 46
-        y: 0
+        y: 40
         width: 23
         height: 40
       alignment: 0
@@ -88,6 +92,50 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: walking_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 40
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: walking_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: walking_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: walking_6
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: walking_7
       rect:
         serializedVersion: 2
         x: 69
