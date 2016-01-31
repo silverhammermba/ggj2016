@@ -55,35 +55,34 @@ public class Sentence : MonoBehaviour
 		if (dist < dropThreshold)
 		{
 			bool isCorrect = key == correctKey;
-			Debug.Log ("correct: " + isCorrect);
 			string colhex = ColorUtility.ToHtmlStringRGB(isCorrect ? correctColor : wrongColor);
 			SetBlank("<color=#" + colhex + ">" +  native + "</color>");
 
-			if (isCorrect) {
+			if (isCorrect)
+			{
 				//load next sentence after 5 seconds
 				Invoke ("cleanupAndLoadNext", 5);
-			} else {
+			}
+			else
+			{
 				//TODO show angry face
 
 				Invoke ("restart", 5);
 			}
 
-			//animation
+			// animation
 			PlayerControl pc = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
-			//		pc.doThing(eng, animTag);
-			Transform target = GameObject.FindWithTag (key).transform;
-			if (target.childCount>0) {
-				target = target.GetChild (0);
-			}
-			pc.setTarget (target.position, key, animTag);
+			pc.setTarget(key, animTag);
 		}
 	}
 
-	void cleanupAndLoadNext(){
+	void cleanupAndLoadNext()
+	{
 		GameObject.Find("TestManager").GetComponent<TestManager>().NextSentence();
 	}
 
-	void restart(){
+	void restart()
+	{
 		SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
 	}
 }
