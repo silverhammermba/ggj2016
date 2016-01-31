@@ -19,6 +19,9 @@ public class Sentence : MonoBehaviour
 	int blankIndex;
 	string animTag;
 
+	private AudioSource errrhNoise 
+
+
 	public void Setup(string sent, string correctKey, string atag)
 	{
 		sentence = sent;
@@ -36,6 +39,7 @@ public class Sentence : MonoBehaviour
 
 	void Awake()
 	{
+		errrhNoise = GetComponent<AudioSource>();
 		text = GetComponent<Text>();
 	}
 
@@ -66,6 +70,9 @@ public class Sentence : MonoBehaviour
 			else
 			{
 				//TODO show angry face
+
+				//Play errrh Soung			
+				errrhNoise.Play();
 
 				Invoke ("restart", 5);
 			}
