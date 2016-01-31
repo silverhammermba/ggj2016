@@ -6,7 +6,7 @@ public class TestManager : MonoBehaviour
 {
 
 	public const string NativeLang = "en";
-	public const string LearningLang = "ja"; //zh, ja
+	public const string LearningLang = "zh"; //zh, ja
 
 	public GameObject sentence;
 	public GameObject noun;
@@ -22,31 +22,34 @@ public class TestManager : MonoBehaviour
 	Sentence currentSentence = null;
 
 	// hardcoded challenges
+	string[,] tests;
 
-//	string[,] tests = new string[,]
-//	{
-//		//0:challenge		1:native word	2:foreign word	3:word key	4:animation	key
-//		{"Tom pees in the _.", "toilet", "卫生间", "toilet", "pee"},
-//		{"Tom takes a _.", "shower", "洗澡", "shower", "shower"},
-//		{"Tom wears his _.", "clothes", "衣服", "clothes", "wear"},
-//		{"Tom opens the _.", "refrigerator", "冰箱", "refrigerator", "open"},
-//		{"Tom eats a big _.", "breakfast", "早餐", "breakfast", "eat"},
-//		{"Tom reads the _.", "newspaper", "报纸", "newspaper", "read"},
-//		{"Tom puts on his _.", "shoes", "鞋子", "shoes", "putOn"},
-//	};
-
-	string[,] tests = new string[,]
-	{
-		//0:challenge		1:native word	2:foreign word	3:word key	4:animation	key
-		{"Tom pees in the _.", "toilet", "トイレ", "toilet", "pee"},
-		{"Tom takes a _.", "shower", "シャワー", "shower", "shower"},
-		{"Tom wears his _.", "clothes", "服", "clothes", "wear"},
-		{"Tom opens the _.", "refrigerator", "冷蔵庫", "refrigerator", "open"},
-		{"Tom eats a big _.", "breakfast", "朝ごはん", "breakfast", "eat"},
-		{"Tom reads the _.", "newspaper", "新聞", "newspaper", "read"},
-		{"Tom puts on his _.", "shoes", "靴", "shoes", "putOn"},
-	};
-
+	public TestManager(){
+		if (LearningLang == "zh") {
+			tests = new string[,] {
+				//0:challenge		1:native word	2:foreign word	3:word key	4:animation	key
+				{ "Tom pees in the _.", "toilet", "卫生间", "toilet", "pee" },
+				{ "Tom takes a _.", "shower", "洗澡", "shower", "shower" },
+				{ "Tom wears his _.", "clothes", "衣服", "clothes", "wear" },
+				{ "Tom opens the _.", "refrigerator", "冰箱", "refrigerator", "open" },
+				{ "Tom eats a big _.", "breakfast", "早餐", "breakfast", "eat" },
+				{ "Tom reads the _.", "newspaper", "报纸", "newspaper", "read" },
+				{ "Tom puts on his _.", "shoes", "鞋子", "shoes", "putOn" },
+			};
+		} else if (LearningLang == "ja") {
+			tests = new string[,]
+			{
+				//0:challenge		1:native word	2:foreign word	3:word key	4:animation	key
+				{"Tom pees in the _.", "toilet", "トイレ", "toilet", "pee"},
+				{"Tom takes a _.", "shower", "シャワー", "shower", "shower"},
+				{"Tom wears his _.", "clothes", "服", "clothes", "wear"},
+				{"Tom opens the _.", "refrigerator", "冷蔵庫", "refrigerator", "open"},
+				{"Tom eats a big _.", "breakfast", "朝ごはん", "breakfast", "eat"},
+				{"Tom reads the _.", "newspaper", "新聞", "newspaper", "read"},
+				{"Tom puts on his _.", "shoes", "靴", "shoes", "putOn"},
+			};
+		}
+	}
 
 	void Start()
 	{
