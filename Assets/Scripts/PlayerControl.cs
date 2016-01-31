@@ -5,6 +5,7 @@ public class PlayerControl : MonoBehaviour
 {
 	private float speed = 1.0f;
 	private Transform target = null;
+	private SpriteRenderer targetSprite = null;
 	private Vector3 targetPos = Vector3.zero;
 	private Animator anim;
 	private SpriteRenderer sprite;
@@ -25,9 +26,8 @@ public class PlayerControl : MonoBehaviour
 
 	public void doThing(string noun, string verb)
 	{
-		sprite.sortingLayerName = "Default";
-
 		Transform item = target.parent;
+		targetSprite.sortingLayerName = "Front";
 
 		if (verb == "shower" && noun != "shower")
 			verb = "take";
@@ -43,8 +43,8 @@ public class PlayerControl : MonoBehaviour
 			anim.SetTrigger(verb);
 
 			// make sure that the target gets removed
-			removeTarget = true;
-
+			if (verb == "take" || (verb == "wear" && noun == "clothes"))
+				removeTarget = true;
 		}
 		// verbs that play an animation
 		else if (verb == "shower" || verb == "pee")
@@ -77,12 +77,15 @@ public class PlayerControl : MonoBehaviour
 
 	public void setTarget(string noun, string verb)
 	{
-		sprite.sortingLayerName = "Front";
+		//sprite.sortingLayerName = "Front";
 
 		//remove thinking bubble
 		bubble.SetActive(false);
 
 		target = GameObject.FindWithTag(noun).transform.GetChild(0);
+		if (targetSprite)
+			targetSprite.sortingLayerName = "Default";
+		targetSprite = target.parent.GetComponentInChildren<SpriteRenderer>();
 		targetPos = new Vector3(target.position.x, transform.position.y, transform.position.z);
 		targetNoun = noun;
 		targetVerb = verb;
