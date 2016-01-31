@@ -9,7 +9,7 @@ public class TestManager : MonoBehaviour
 	const string Japanese = "ja";
 
 	public const string NativeLang = English;
-	public const string LearningLang = English;
+	public const string LearningLang = Chinese;
 
 	public GameObject sentence;
 	public GameObject noun;
