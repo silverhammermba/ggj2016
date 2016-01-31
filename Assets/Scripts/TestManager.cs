@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
 
 public class TestManager : MonoBehaviour
 {
@@ -28,11 +29,34 @@ public class TestManager : MonoBehaviour
 	{
 		NextSentence();
 
-		//TODO scramble this word order again
-
+		Word[] words = new Word[tests.WordBank.Values.Count];
+		int j = 0;
 		foreach (Word w in tests.WordBank.Values) {
-			CreateNoun (w);
+			words[j] = w;
+			j++;
 		}
+
+		// scramble the word order
+
+		int num = words.Length;
+
+		// decide a random order to add nouns
+		int[] indices = new int[num];
+		for (int i = 0; i < num; ++i) indices[i] = i;
+		for (int i = 0; i < num - 1; ++i)
+		{
+			int swp = Random.Range(i, num);
+			int tmp = indices[swp];
+			indices[swp] = indices[i];
+			indices[i] = tmp;
+		}
+
+		// add nouns
+		for (int i = 0; i < num; ++i)
+		{
+			CreateNoun(words[indices[i]]);
+		}
+
 
 	}
 
