@@ -6,7 +6,7 @@ public class TestManager : MonoBehaviour
 {
 
 	public const string NativeLang = "en";
-	public const string LearningLang = "en"; //zh, ja, en
+	public const string LearningLang = "zh"; //zh, ja, en
 
 	public GameObject sentence;
 	public GameObject noun;
