@@ -45,8 +45,9 @@ public class Sentence : MonoBehaviour
 
 	public void FillIn(GameObject word )
 	{
+		// TODO make drag'n'drop work based on the bounding box, not the center
 		float dist = Vector3.Distance(word.transform.position, transform.position);
-//		Debug.Log ("dist: " + dist);
+
 		string eng = word.GetComponent<Noun>().english;
 
 		if (dist < dropThreshold)
@@ -66,7 +67,7 @@ public class Sentence : MonoBehaviour
 		PlayerControl pc = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
 		pc.doThing(eng, animTag);
 	}
-		
+
 	void cleanupAndLoadNext(){
 		GameObject.Find("TestManager").GetComponent<TestManager>().NextSentence();
 	}
