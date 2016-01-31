@@ -1,41 +1,26 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerControl : MonoBehaviour {
-	
+public class PlayerControl : MonoBehaviour
+{
+	Animator anim;
 
-
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	void Awake()
+	{
+		anim = GetComponent<Animator>();
 	}
 
-	public void beginAnimation (GameObject item, string animTag) {
-		if (animTag == "eat") {
-			Animator animator = GetComponent<Animator>();
-			animator.SetTrigger("eatNow");
-	
-			item.transform.SetParent(transform.GetChild (0).transform);
-			item.transform.localPosition = new Vector3 (0, 0, 0);
+	public void doThing(GameObject noun, string verb)
+	{
+		// verbs that just move something to the hand
+		if (verb == "eat" || verb == "wear")
+		{
+			// move noun to player's hand
+			noun.transform.SetParent(transform.GetChild (0).transform);
+			noun.transform.localPosition = new Vector3 (0, 0, 0);
 
-
+			// start animation
+			anim.SetTrigger(verb);
 		}
 	}
-
-
-
-	void eating (GameObject food) {
-
-	}
-
-
-
-
-
-
 }

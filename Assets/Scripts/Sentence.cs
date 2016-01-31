@@ -18,11 +18,11 @@ public class Sentence : MonoBehaviour
 	int blankIndex;
 	string animTag;
 
-	public void Setup(string sent, string cor, string animTag)
+	public void Setup(string sent, string cor, string atag)
 	{
 		sentence = sent;
 		correct = cor;
-		this.animTag = animTag;
+		animTag = atag;
 
 
 		if ((blankIndex = sentence.IndexOf("_")) < 0)
@@ -63,10 +63,8 @@ public class Sentence : MonoBehaviour
 		}
 
 		//animation
-		GameObject player = GameObject.FindWithTag ("Player");
-//		Debug.Log (player);
-		PlayerControl pc = player.GetComponent<PlayerControl> ();
-		pc.beginAnimation(GameObject.FindWithTag(eng), "eat");
+		PlayerControl pc = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
+		pc.doThing(GameObject.FindWithTag(eng), animTag);
 	}
 		
 	void cleanupAndLoadNext(){
