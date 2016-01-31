@@ -25,6 +25,8 @@ public class PlayerControl : MonoBehaviour
 
 	public void doThing(string noun, string verb)
 	{
+		sprite.sortingLayerName = "Default";
+
 		Transform item = target.parent;
 
 		if (verb == "shower" && noun != "shower")
@@ -75,6 +77,8 @@ public class PlayerControl : MonoBehaviour
 
 	public void setTarget(string noun, string verb)
 	{
+		sprite.sortingLayerName = "Front";
+
 		//remove thinking bubble
 		bubble.SetActive(false);
 
