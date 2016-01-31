@@ -19,7 +19,7 @@ public class Sentence : MonoBehaviour
 	int blankIndex;
 	string animTag;
 
-	private AudioSource errrhNoise 
+	private AudioSource errrhNoise;
 
 
 	public void Setup(string sent, string correctKey, string atag)
