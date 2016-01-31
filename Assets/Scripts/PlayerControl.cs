@@ -99,7 +99,7 @@ public class PlayerControl : MonoBehaviour
 	{
 		if (removeTarget && playerHand.childCount > 0)
 		{
-			Destroy (playerHand.GetChild(0).gameObject);
+			Destroy (playerHand.GetChild(0).gameObject); 
 			removeTarget = false;
 		}
 	}
@@ -112,22 +112,36 @@ public class PlayerControl : MonoBehaviour
 			Destroy (bubble.transform.GetChild(0).gameObject);
 
 		GameObject item = GameObject.FindWithTag(itemToThink);
-		GameObject clone = Instantiate(item);
 
+
+
+
+		SpriteRenderer targetRenderer = GameObject.FindWithTag(itemToThink).GetComponentInChildren<SpriteRenderer> ();
+		GameObject clone = Instantiate(targetRenderer.gameObject);
 		Transform target = clone.transform;
-		if (target.childCount>0)
-		{
-			target = target.GetComponentInChildren<SpriteRenderer> ().transform;
-		}
-			
+		targetRenderer = clone.GetComponent<SpriteRenderer>();
+		targetRenderer.sortingLayerName = "Front";
+		target = targetRenderer.transform;
+
+
 
 		clone.transform.SetParent(bubble.transform);
 
-		target.position = bubble.transform.position + new Vector3(0.08f, 0.12f, 0f);
+		target.localPosition = new Vector3 (-0.01f, 0, 0);
 
-		float ratio = Mathf.Abs(transform.localScale.x / target.transform.localScale.x);
+		//float ratioX = Mathf.Abs(bubble.transform.localScale.x / target.transform.localScale.x) * 0.8f;
+		//float ratioY = Mathf.Abs(bubble.transform.localScale.y / target.transform.localScale.y) * 0.8f;
+		//float ratio = Mathf.Min (ratioX,ratioY);
+		//target.transform.localScale *= ratio;
 
-		target.transform.localScale *= ratio;
 
+		//New ration calculation
+		Sprite targetSp = targetRenderer.sprite;
+		Sprite bubbleSprite = bubble.GetComponent<SpriteRenderer>().sprite;
+
+		float ratiox = (bubbleSprite.bounds.size.x / targetSp.bounds.size.x) * 0.3f;
+		float ratioy = (bubbleSprite.bounds.size.y / targetSp.bounds.size.y) * 0.3f;
+		float correctRatio = Mathf.Min (ratiox, ratioy);
+		target.transform.localScale *= correctRatio;
 	}
 }
