@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Sentence : MonoBehaviour
 {
@@ -58,7 +59,11 @@ public class Sentence : MonoBehaviour
 
 			if (isCorrect) {
 				//load next sentence after 5 seconds
-				Invoke("cleanupAndLoadNext",5);
+				Invoke ("cleanupAndLoadNext", 5);
+			} else {
+				//TODO show angry face
+
+				Invoke ("restart", 5);
 			}
 		}
 
@@ -69,5 +74,9 @@ public class Sentence : MonoBehaviour
 		
 	void cleanupAndLoadNext(){
 		GameObject.Find("TestManager").GetComponent<TestManager>().NextSentence();
+	}
+
+	void restart(){
+		SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
 	}
 }
