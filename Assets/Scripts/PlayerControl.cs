@@ -25,7 +25,7 @@ public class PlayerControl : MonoBehaviour
 
 	public void doThing(string noun, string verb)
 	{
-		thinking (new Vector3 (100f, 100f, 100f));
+
 
 
 		GameObject item = GameObject.FindWithTag(noun);
@@ -69,6 +69,10 @@ public class PlayerControl : MonoBehaviour
 	}
 
 	public void setTarget(Vector3 dest, string noun, string verb){
+		//remove thinking bubble
+		GameObject bubble = GameObject.FindWithTag("bubble");
+		bubble.transform.position = new Vector3 (100f, 100f, 0);
+		//
 		target = new Vector3 (dest.x, transform.position.y, transform.position.z);
 		targetNoun = noun;
 		targetVerb = verb;
@@ -84,8 +88,22 @@ public class PlayerControl : MonoBehaviour
 		}
 	}
 
-	public void thinking (Vector3 vector){
-		GameObject obj = GameObject.FindWithTag ("bubble");
-		obj.transform.localPosition = vector;
+	public void thinking (string itemToThink, Vector3 bubbleVector){
+		GameObject bubble = GameObject.FindWithTag ("bubble");
+		bubble.transform.position = bubbleVector;
+
+		if (bubble.transform.childCount > 0)
+			Destroy (bubble.transform.GetChild (0).gameObject);
+		GameObject item = GameObject.FindWithTag (itemToThink);
+		GameObject clone = Instantiate (item);
+
+		Transform target = clone.transform;
+		if (target.childCount>0) {
+			target = target.GetChild (0);
+		}
+
+		clone.transform.SetParent (bubble.transform);
+
+		target.position = bubble.transform.position + new Vector3 (0.08f, 0.12f, 0f);
 	}
 }

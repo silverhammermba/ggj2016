@@ -66,10 +66,7 @@ public class TestManager : MonoBehaviour
 		//Starting the thinking bubble
 		PlayerControl pc = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
 		Vector3 vector = (Vector3)(GameObject.FindWithTag ("Player").transform.position + new Vector3 (0.25f,0.3f, 0));
-		pc.thinking(vector);
-
-		Text text = GameObject.FindWithTag ("bubbleText").GetComponent<Text> ();
-		text.text = tests [i, 1];
+		pc.thinking(tests [i, 1], vector);
 	}
 
 	// create a noun button from the hardcoded list
