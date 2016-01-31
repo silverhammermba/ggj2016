@@ -56,7 +56,7 @@ public class PlayerControl : MonoBehaviour
 				getDressed();
 		}
 		// verbs that play an animation
-		else if (verb == "shower" || verb == "pee")
+		else //if (verb == "shower" || verb == "pee")
 		{
 			// start animation
 			anim.SetTrigger(verb);
