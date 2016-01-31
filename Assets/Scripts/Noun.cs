@@ -17,9 +17,10 @@ public class Noun : MonoBehaviour
 	{
 		canvas = GameObject.FindWithTag("canvas").transform;
 		asrc = GetComponent<AudioSource>();
-		clip = Resources.Load("Audio/"+TestManager.LearningLang+"_" + key) as AudioClip;
+		string audioPath = "Audio/" + GameStateManager.LearningLang + "_" + key;
+		clip = Resources.Load(audioPath) as AudioClip;
 		if (clip == null)
-			Debug.Log("Failed to load Audio/" + key);
+			Debug.Log("Failed to load " + audioPath);
 		asrc.clip = clip;
 	}
 

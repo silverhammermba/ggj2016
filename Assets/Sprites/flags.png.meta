@@ -1,0 +1,3321 @@
+fileFormatVersion: 2
+guid: 8806eab307d594549861e7cbfd887d45
+timeCreated: 1454258122
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: flags_0
+    21300002: flags_1
+    21300004: flags_2
+    21300006: flags_3
+    21300008: flags_4
+    21300010: flags_5
+    21300012: flags_6
+    21300014: flags_7
+    21300016: flags_8
+    21300018: flags_9
+    21300020: flags_10
+    21300022: flags_11
+    21300024: flags_12
+    21300026: flags_13
+    21300028: flags_14
+    21300030: flags_15
+    21300032: flags_16
+    21300034: flags_17
+    21300036: flags_18
+    21300038: flags_19
+    21300040: flags_20
+    21300042: flags_21
+    21300044: flags_22
+    21300046: flags_23
+    21300048: flags_24
+    21300050: flags_25
+    21300052: flags_26
+    21300054: flags_27
+    21300056: flags_28
+    21300058: flags_29
+    21300060: flags_30
+    21300062: flags_31
+    21300064: flags_32
+    21300066: flags_33
+    21300068: flags_34
+    21300070: flags_35
+    21300072: flags_36
+    21300074: flags_37
+    21300076: flags_38
+    21300078: flags_39
+    21300080: flags_40
+    21300082: flags_41
+    21300084: flags_42
+    21300086: flags_43
+    21300088: flags_44
+    21300090: flags_45
+    21300092: flags_46
+    21300094: flags_47
+    21300096: flags_48
+    21300098: flags_49
+    21300100: flags_50
+    21300102: flags_51
+    21300104: flags_52
+    21300106: flags_53
+    21300108: flags_54
+    21300110: flags_55
+    21300112: flags_56
+    21300114: flags_57
+    21300116: flags_58
+    21300118: flags_59
+    21300120: flags_60
+    21300122: flags_61
+    21300124: flags_62
+    21300126: flags_63
+    21300128: flags_64
+    21300130: flags_65
+    21300132: flags_66
+    21300134: flags_67
+    21300136: flags_68
+    21300138: flags_69
+    21300140: flags_70
+    21300142: flags_71
+    21300144: flags_72
+    21300146: flags_73
+    21300148: flags_74
+    21300150: flags_75
+    21300152: flags_76
+    21300154: flags_77
+    21300156: flags_78
+    21300158: flags_79
+    21300160: flags_80
+    21300162: flags_81
+    21300164: flags_82
+    21300166: flags_83
+    21300168: flags_84
+    21300170: flags_85
+    21300172: flags_86
+    21300174: flags_87
+    21300176: flags_88
+    21300178: flags_89
+    21300180: flags_90
+    21300182: flags_91
+    21300184: flags_92
+    21300186: flags_93
+    21300188: flags_94
+    21300190: flags_95
+    21300192: flags_96
+    21300194: flags_97
+    21300196: flags_98
+    21300198: flags_99
+    21300200: flags_100
+    21300202: flags_101
+    21300204: flags_102
+    21300206: flags_103
+    21300208: flags_104
+    21300210: flags_105
+    21300212: flags_106
+    21300214: flags_107
+    21300216: flags_108
+    21300218: flags_109
+    21300220: flags_110
+    21300222: flags_111
+    21300224: flags_112
+    21300226: flags_113
+    21300228: flags_114
+    21300230: flags_115
+    21300232: flags_116
+    21300234: flags_117
+    21300236: flags_118
+    21300238: flags_119
+    21300240: flags_120
+    21300242: flags_121
+    21300244: flags_122
+    21300246: flags_123
+    21300248: flags_124
+    21300250: flags_125
+    21300252: flags_126
+    21300254: flags_127
+    21300256: flags_128
+    21300258: flags_129
+    21300260: flags_130
+    21300262: flags_131
+    21300264: flags_132
+    21300266: flags_133
+    21300268: flags_134
+    21300270: flags_135
+    21300272: flags_136
+    21300274: flags_137
+    21300276: flags_138
+    21300278: flags_139
+    21300280: flags_140
+    21300282: flags_141
+    21300284: flags_142
+    21300286: flags_143
+    21300288: flags_144
+    21300290: flags_145
+    21300292: flags_146
+    21300294: flags_147
+    21300296: flags_148
+    21300298: flags_149
+    21300300: flags_150
+    21300302: flags_151
+    21300304: flags_152
+    21300306: flags_153
+    21300308: flags_154
+    21300310: flags_155
+    21300312: flags_156
+    21300314: flags_157
+    21300316: flags_158
+    21300318: flags_159
+    21300320: flags_160
+    21300322: flags_161
+    21300324: flags_162
+    21300326: flags_163
+    21300328: flags_164
+    21300330: flags_165
+    21300332: flags_166
+    21300334: flags_167
+    21300336: flags_168
+    21300338: flags_169
+    21300340: flags_170
+    21300342: flags_171
+    21300344: flags_172
+    21300346: flags_173
+    21300348: flags_174
+    21300350: flags_175
+    21300352: flags_176
+    21300354: flags_177
+    21300356: flags_178
+    21300358: flags_179
+    21300360: flags_180
+    21300362: flags_181
+    21300364: flags_182
+    21300366: flags_183
+    21300368: flags_184
+    21300370: flags_185
+    21300372: flags_186
+    21300374: flags_187
+    21300376: flags_188
+    21300378: flags_189
+    21300380: flags_190
+    21300382: flags_191
+    21300384: flags_192
+    21300386: flags_193
+    21300388: flags_194
+    21300390: flags_195
+    21300392: flags_196
+    21300394: flags_197
+    21300396: flags_198
+    21300398: flags_199
+    21300400: flags_200
+    21300402: flags_201
+    21300404: flags_202
+    21300406: flags_203
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: flags_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_4
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_5
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_6
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_8
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_9
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_10
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_11
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_12
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_13
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_14
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_15
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_16
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 665
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_18
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_20
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_21
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_22
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_23
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_24
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_25
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_26
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_27
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_28
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_29
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_30
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_31
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_32
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_33
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 605
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_34
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_35
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_36
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_37
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_38
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_39
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_40
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_41
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_42
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_43
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_44
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_45
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_46
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_47
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_48
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_49
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_50
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 545
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_51
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_52
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_53
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_54
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_55
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_56
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_57
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_58
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_59
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_60
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_61
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_62
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_63
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_64
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_65
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_66
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_67
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 485
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_68
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_69
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_70
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_71
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_72
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_73
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_74
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_75
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_76
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_77
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_78
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_79
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_80
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_81
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_82
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_83
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_84
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 425
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_85
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_86
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_87
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_88
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_89
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_90
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_91
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_92
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_93
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_94
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_95
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_96
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_97
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_98
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_99
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_101
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 365
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_102
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_103
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_104
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_105
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_106
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_107
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_108
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_109
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_110
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_111
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_112
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_113
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_114
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_115
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_116
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_117
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_118
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 305
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_119
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_120
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_121
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_122
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_123
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_124
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_125
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_126
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_127
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_128
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_129
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_130
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_131
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_132
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_133
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_134
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_135
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 245
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_136
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_137
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_138
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_139
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_140
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_141
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_142
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_143
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_144
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_145
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_146
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_147
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_148
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_149
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_150
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_151
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_152
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 185
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_153
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_154
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_155
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_156
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_157
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_158
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_159
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_160
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_161
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_162
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_163
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_164
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_165
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_166
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_167
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_168
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_169
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 125
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_170
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_171
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_172
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_173
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_174
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_175
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_176
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_177
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_178
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_179
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_180
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_181
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_182
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_183
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_184
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_185
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_186
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 65
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_187
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_188
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_189
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_190
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_191
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_192
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_193
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_194
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_195
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_196
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_197
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_198
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_199
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_200
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_201
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_202
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    - name: flags_203
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 5
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 30}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
