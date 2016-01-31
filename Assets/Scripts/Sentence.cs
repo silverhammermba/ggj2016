@@ -76,8 +76,6 @@ public class Sentence : MonoBehaviour
 			}
 			pc.setTarget (target.position, eng, animTag);
 		}
-
-
 	}
 
 	void cleanupAndLoadNext(){
